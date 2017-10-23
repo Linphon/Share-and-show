@@ -1,12 +1,12 @@
 小胖子一号组装教程
 1. 零件：（以下提供的购买链接仅为提供实物参考，在符合尺寸型号要求的前提下，可寻找性价比更高的零件）
 （1）亚克力板（机加工）：采用厚度为15mm、12mm、10mm 的亚力克板。
-（2）塑料件（3D打印）：打印材料使用的是PLA。
+（2）塑料件（3D打印）：打印材料使用的是PLA：Share-and-show/塑料打印件.7z
 （3）机械零件：
     直线钢导轨*6，直径 12mm、长度不超过 1米（https://item.taobao.com/item.htm?spm=a230r.1.14.27.6c70558dYS3hd4&id=17662354377&ns=1&abbucket=16#detail）
     轴承*3，内径 12mm （https://item.taobao.com/item.htm?spm=a230r.1.14.20.74084175xU0rvF&id=14495101210&ns=1&abbucket=16#detail）
-    步进电机*3 型号42BYGHW811（https://item.taobao.com/item.htm?spm=a1z09.2.0.0.5f580360SBKfZ2&id=7431616976&_u=amvrd758d36）
-    并联臂*6 长度没有严格要求，适中即可（https://item.taobao.com/item.htm?spm=a230r.1.14.16.5015070aWSJxlW&id=41880326840&ns=1&abbucket=16#detail）
+    步进电机*3， 型号42BYGHW811（https://item.taobao.com/item.htm?spm=a1z09.2.0.0.5f580360SBKfZ2&id=7431616976&_u=amvrd758d36）
+    并联臂*6， 长度没有严格要求，适中即可（https://item.taobao.com/item.htm?spm=a230r.1.14.16.5015070aWSJxlW&id=41880326840&ns=1&abbucket=16#detail）
     皮带*10米，型号GT2、宽6mm（https://item.taobao.com/item.htm?spm=a230r.1.14.16.4c061a7jlpZrs&id=40178349220&ns=1&abbucket=16#detail）
     皮带带轮*3，与皮带和电机轴配套，内径5mm（https://item.taobao.com/item.htm?spm=2013.1.0.0.410c665NyUj0f&id=39890812501)
     同步带轮*3,宽6mm（https://item.taobao.com/item.htm?spm=2013.1.w4018-8152125555.5.42a7d14rwkQQa&id=532587467075&scm=1007.11837.58613.i37627469206&pvid=9c0c14e6-8211-4eaf-822e-a2582ad970b7）
@@ -21,10 +21,19 @@
     电源*1，12V（https://item.taobao.com/item.htm?spm=a1z09.2.0.0.1839aa593hivex&id=521431248033&_u=amvrd7526b6）
 （5）必备工具：
     尼龙扎带（https://detail.tmall.com/item.htm?id=520828671047&ali_refid=a3_420434_1006:1103388029:N:%E6%89%8E%E5%B8%A6%20%E9%BB%91%E8%89%B2:ccf461f2dead70ea4f85b6a223e669ae&ali_trackid=1_ccf461f2dead70ea4f85b6a223e669ae&spm=a230r.1.1957635.34.60e50eb4Lf02hr）
-    螺丝螺母
+    螺丝螺母 M3、M4
     螺丝刀
 （6）挤出系统：
     料筒，200CC（https://item.taobao.com/item.htm?spm=a1z09.2.0.0.42321319yQl9pP&id=524711512703&_u=amvrd75ba8a）
     气泵（https://detail.tmall.com/item.htm?spm=a230r.1.14.6.378598c09YLSMm&id=19066998836&cm_id=140105335569ed55e27b&abbucket=16）
     调压阀（https://item.taobao.com/item.htm?spm=a230r.1.14.34.674879a7xbUFxh&id=526537811249&ns=1&abbucket=16#detail）
     接头，要与上述配套。
+2. 固件 
+    原教程使用的是 Marlin 固件，可用。但 Repetier 固件同样可用且还有方便后期调整参数的优势。所以我建议使用 Repetier 固件。
+    固件压缩包：Share-and-show/固件压缩包-Repetier-Firmware.zip
+    固件参数调节网址：https://www.repetier.com/firmware/v092/index.php
+    上传固件到打印机主板需要用到软件 arduino。
+3. 打印机控制软件和切片软件
+    Repetier-Host V1.6.2（内嵌切片软件slic3r) :https://www.repetier.com/download-now/
+    软件参数配置：Share-and-show/repetier-host 软件配制.zip
+    软件参数配置好之后，将.stl格式的三维模型导入reoetier-host中，点击“开始切片slic3r”按钮进行切片处理，保存.gcode文件到SD中。
