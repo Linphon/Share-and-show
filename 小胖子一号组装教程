@@ -28,12 +28,14 @@
     气泵（https://detail.tmall.com/item.htm?spm=a230r.1.14.6.378598c09YLSMm&id=19066998836&cm_id=140105335569ed55e27b&abbucket=16）
     调压阀（https://item.taobao.com/item.htm?spm=a230r.1.14.34.674879a7xbUFxh&id=526537811249&ns=1&abbucket=16#detail）
     接头，要与上述配套。
-2. 固件 
+2. 安装视频：
+3. 电路图接线： 
+4. 固件 
     原教程使用的是 Marlin 固件，可用。但 Repetier 固件同样可用且还有方便后期调整参数的优势。所以我建议使用 Repetier 固件。
     固件压缩包：Share-and-show/固件压缩包-Repetier-Firmware.zip
     固件参数调节网址：https://www.repetier.com/firmware/v092/index.php
     上传固件到打印机主板需要用到软件 arduino。
-3. 打印机控制软件和切片软件
+5. 打印机控制软件和切片软件
     Repetier-Host V1.6.2（内嵌切片软件slic3r) :https://www.repetier.com/download-now/
     软件参数配置：Share-and-show/repetier-host 软件配制.zip
     软件参数配置好之后，将.stl格式的三维模型导入reoetier-host中，点击“开始切片slic3r”按钮进行切片处理，保存.gcode文件到SD中。
