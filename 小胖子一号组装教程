@@ -1,6 +1,6 @@
 小胖子一号组装教程
 1. 零件：（以下提供的购买链接仅为提供实物参考，在符合尺寸型号要求的前提下，可寻找性价比更高的零件）
-（1）亚克力板（机加工）：采用厚度为15mm、12mm、10mm 的亚力克板。
+（1）亚克力板（机加工）：采用厚度为15mm、12mm、10mm 的亚力克板（基底部分15mm、顶部组件部分12mm、组件部分10mm）。Share-and-show/机加工件.7z
 （2）塑料件（3D打印）：打印材料使用的是PLA：Share-and-show/塑料打印件.7z
 （3）机械零件：
     直线钢导轨*6，直径 12mm、长度不超过 1米（https://item.taobao.com/item.htm?spm=a230r.1.14.27.6c70558dYS3hd4&id=17662354377&ns=1&abbucket=16#detail）
@@ -28,8 +28,8 @@
     气泵（https://detail.tmall.com/item.htm?spm=a230r.1.14.6.378598c09YLSMm&id=19066998836&cm_id=140105335569ed55e27b&abbucket=16）
     调压阀（https://item.taobao.com/item.htm?spm=a230r.1.14.34.674879a7xbUFxh&id=526537811249&ns=1&abbucket=16#detail）
     接头，要与上述配套。
-2. 安装视频：
-3. 电路图接线： 
+2. 安装视频：https://www.youtube.com/watch?v=MYd_AmkCWfM
+3. 电路图接线： Share-and-show/接线图.7z（详细接法可参考以下网站：http://reprap.org/wiki/RAMPS_1.4/zh_cn#.E5.AE.89.E8.A3.85）
 4. 固件 
     原教程使用的是 Marlin 固件，可用。但 Repetier 固件同样可用且还有方便后期调整参数的优势。所以我建议使用 Repetier 固件。
     固件压缩包：Share-and-show/固件压缩包-Repetier-Firmware.zip
